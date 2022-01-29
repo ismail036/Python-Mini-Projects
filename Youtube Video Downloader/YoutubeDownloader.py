@@ -1,7 +1,9 @@
 from pytube import YouTube
 from pytube.streams import Stream
 
-yt = YouTube("https://www.youtube.com/watch?v=s3JNELX_5Vc")
+
+
+yt = input("İndirmek istediğiniz videonun linkini giriniz ")
 
 stream = yt.streams.get_by_itag(22)
 
